@@ -15,7 +15,12 @@
       </div>
 
       <section class="contents">
-        <form action="\sign up.html" method="post" id="form_wrap">
+      <form action="process.php"
+          method="post"
+          id="form_wrap"
+          onload(location.href="/sign up.html"
+          );
+        >
           <!-- 이용 약관 모두 동의 -->
           <div class="agree_to_all_terms">
             <input type="checkbox" name="checkAll" id="checkAll" />
